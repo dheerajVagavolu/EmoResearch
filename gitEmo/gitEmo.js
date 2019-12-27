@@ -32655,7 +32655,7 @@ console.log(array1.diff(array2));
 
 function main() {
   
-  var elementlist = document.getElementsByClassName("message js-navigation-open");
+  var elementlist = document.getElementsByClassName("link-gray-dark v-align-middle no-underline h4 js-navigation-open");
   console.log(elementlist);
 
 var i = 0;
