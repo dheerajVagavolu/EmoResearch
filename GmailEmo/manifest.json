@@ -1,0 +1,14 @@
+{
+	"manifest_version":2,
+	"name": "GMailEmo",
+	"description": "Augment Gmail with Emotions",
+	"version": "1.0",
+
+	
+
+	"content_scripts": [{
+		"matches" : ["https://mail.google.com/*"],
+		"css": ["css/style.css"],
+		"js": ["js/jquery-3.3.1.min.js", "gmailEmo.js"]
+	}]
+}
